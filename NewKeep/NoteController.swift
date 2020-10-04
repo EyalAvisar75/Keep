@@ -18,13 +18,6 @@ class NoteController: UIViewController {
     }
     
     override func viewWillDisappear(_ animated: Bool) {
-        print("\(noteTitle.text), \(noteContent.text)")
         writeNote(title: noteTitle.text, content: noteContent.text)
     }
-    
-    
-//    @IBAction func getContent(_ sender: UITextView) {
-//        guard let content = sender.text else { return }
-//        note = writeNoteContent(note: note, content: content)
-//    }
 }
