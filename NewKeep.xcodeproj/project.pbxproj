@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		185B0BF4252AEFB20011DBB6 /* NoteCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185B0BF3252AEFB20011DBB6 /* NoteCollectionCell.swift */; };
 		189F6AC72529A21F0074C8CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F6AC62529A21F0074C8CC /* AppDelegate.swift */; };
 		189F6AC92529A21F0074C8CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F6AC82529A21F0074C8CC /* SceneDelegate.swift */; };
 		189F6ACE2529A21F0074C8CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189F6ACC2529A21F0074C8CC /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		185B0BF3252AEFB20011DBB6 /* NoteCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCollectionCell.swift; sourceTree = "<group>"; };
 		189F6AC32529A21F0074C8CC /* NewKeep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewKeep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		189F6AC62529A21F0074C8CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		189F6AC82529A21F0074C8CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				189F6AF62529A2AA0074C8CC /* MainController.swift */,
 				189F6AF82529A4E10074C8CC /* NoteController.swift */,
 				189F6AFA2529A4F50074C8CC /* NoteModel.swift */,
+				185B0BF3252AEFB20011DBB6 /* NoteCollectionCell.swift */,
 				189F6ACC2529A21F0074C8CC /* Main.storyboard */,
 				189F6ACF2529A24B0074C8CC /* Assets.xcassets */,
 				189F6AD12529A24B0074C8CC /* LaunchScreen.storyboard */,
@@ -268,6 +271,7 @@
 				189F6AFB2529A4F50074C8CC /* NoteModel.swift in Sources */,
 				189F6AC72529A21F0074C8CC /* AppDelegate.swift in Sources */,
 				189F6AF92529A4E10074C8CC /* NoteController.swift in Sources */,
+				185B0BF4252AEFB20011DBB6 /* NoteCollectionCell.swift in Sources */,
 				189F6AF72529A2AA0074C8CC /* MainController.swift in Sources */,
 				189F6AC92529A21F0074C8CC /* SceneDelegate.swift in Sources */,
 			);

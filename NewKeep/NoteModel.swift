@@ -28,16 +28,26 @@ func printNotes() {
     print(notes.count)
 }
 
-func writeNote(title:String?, content:String?) {
+func writeNote(title:String?, content:String?, noteToEdit:Int = -1) {
     let title = title ?? ""
     let content = content ?? ""
     
     if title == "" && content == "" {
+        if noteToEdit != -1 {
+            notes.remove(at: noteToEdit)
+        }
         return
     }
     
     let note = Note(title: title, content: content)
-    addNote(note: note)
+    
+    if noteToEdit != -1 {
+        notes[noteToEdit] = note
+    }
+    else {
+        addNote(note: note)
+    }
+    
     printNotes()
 }
 
