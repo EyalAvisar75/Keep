@@ -18,6 +18,7 @@
 		189F6AF72529A2AA0074C8CC /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F6AF62529A2AA0074C8CC /* MainController.swift */; };
 		189F6AF92529A4E10074C8CC /* NoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F6AF82529A4E10074C8CC /* NoteController.swift */; };
 		189F6AFB2529A4F50074C8CC /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189F6AFA2529A4F50074C8CC /* NoteModel.swift */; };
+		18BE448F252C710B000D4BF0 /* NotesLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE448E252C710B000D4BF0 /* NotesLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		189F6AF62529A2AA0074C8CC /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		189F6AF82529A4E10074C8CC /* NoteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteController.swift; sourceTree = "<group>"; };
 		189F6AFA2529A4F50074C8CC /* NoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
+		18BE448E252C710B000D4BF0 /* NotesLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				189F6AF82529A4E10074C8CC /* NoteController.swift */,
 				189F6AFA2529A4F50074C8CC /* NoteModel.swift */,
 				185B0BF3252AEFB20011DBB6 /* NoteCollectionCell.swift */,
+				18BE448E252C710B000D4BF0 /* NotesLayout.swift */,
 				189F6ACC2529A21F0074C8CC /* Main.storyboard */,
 				189F6ACF2529A24B0074C8CC /* Assets.xcassets */,
 				189F6AD12529A24B0074C8CC /* LaunchScreen.storyboard */,
@@ -270,6 +273,7 @@
 			files = (
 				189F6AFB2529A4F50074C8CC /* NoteModel.swift in Sources */,
 				189F6AC72529A21F0074C8CC /* AppDelegate.swift in Sources */,
+				18BE448F252C710B000D4BF0 /* NotesLayout.swift in Sources */,
 				189F6AF92529A4E10074C8CC /* NoteController.swift in Sources */,
 				185B0BF4252AEFB20011DBB6 /* NoteCollectionCell.swift in Sources */,
 				189F6AF72529A2AA0074C8CC /* MainController.swift in Sources */,
