@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uEL-lP-Wlo">
-                                <rect key="frame" x="247" y="785" width="90" height="38"/>
+                                <rect key="frame" x="247" y="775" width="90" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="+"/>
                                 <connections>
@@ -64,13 +64,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="mvJ-eX-yXi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7Q5-Xq-5LN"/>
-                            <constraint firstItem="uEL-lP-Wlo" firstAttribute="top" secondItem="mvJ-eX-yXi" secondAttribute="bottom" constant="65" id="BsT-cM-mfQ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uEL-lP-Wlo" secondAttribute="trailing" constant="77" id="CEU-Qg-ygx"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="uEL-lP-Wlo" secondAttribute="bottom" constant="39" id="SM8-nS-QLl"/>
+                            <constraint firstItem="uEL-lP-Wlo" firstAttribute="top" secondItem="mvJ-eX-yXi" secondAttribute="bottom" constant="55" id="Zvd-TF-cWQ"/>
                             <constraint firstItem="mvJ-eX-yXi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="c0f-em-3UL"/>
                             <constraint firstItem="uEL-lP-Wlo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="247" id="izD-ir-bDz"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mvJ-eX-yXi" secondAttribute="trailing" id="m2k-fU-jP5"/>
-                            <constraint firstItem="uEL-lP-Wlo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="697" id="qNf-fz-wSt"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="kWO-GG-yYU"/>
